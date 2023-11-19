@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --clr-fondo: #f7f7f7;
+    --clr-titulo: #991818;
+    --clr-letras: #1a1b1c;
+
+}
+
+.container {
+    background-color: var(--clr-fondo);
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.paragraph {
+    width: 85%;
+    margin: 0 auto;
+}
